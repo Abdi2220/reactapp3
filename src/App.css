@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+
+body {
+  @apply bg-gradient-to-br from-gray-900 via-black to-gray-800 text-white;
+  min-height: 100vh;
+  margin: 0; 
+}
+
+
+.leaflet-popup-content {
+  @apply first-letter:uppercase text-red-600 font-bold 
+  
+}
